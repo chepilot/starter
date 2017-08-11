@@ -1,10 +1,18 @@
 .projectView{
     height: 100%;
-    width: 100%;
+    width: calc(100% - 78px);
+    display: inline-block;
+    overflow-y: scroll;
 }
 
-.element {
-    height:100px;
+.projectView::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.target {
+    height:1000px;
+    width: 100%;
     background-color: #ededed;
     font-size: 45px;
     border-top:1px solid #000;

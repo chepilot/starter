@@ -1,18 +1,22 @@
 .home {
     background-image: url(../../image/home.jpg);
     height: 100%;
-    width: 100%;
+    width: calc(100% - 78px);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    display: table;
+    overflow: hidden;
+    position: relative;
+    display: inline-block
 }
 
 .projectName{
     font-size: 3.5em;
     color: #222a35;
     vertical-align: middle;
+    top:40%;
+    position: relative;
     line-height: normal;
-    display: table-cell;
+    overflow: hidden;
 }

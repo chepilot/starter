@@ -1,0 +1,8 @@
+.doormat{
+    height: 100%;
+    background-color: #212121;
+    width:78px;
+    left: 0;
+    position: relative;
+    display: inline-block;
+}

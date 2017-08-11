@@ -1,0 +1,38 @@
+.project-entry{
+    background-color: #060606;
+    color:#fff;
+    height:100%;
+    width:100%;
+    font-size: 1.2rem;
+}
+
+.entry-title{
+    position: relative;
+    top:20%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.entry-text{
+    position: relative;
+    top:25%;
+    padding-right: 5em;
+    padding-left:5em ;
+}
+
+.entry-button{
+    position: relative;
+    vertical-align: middle;
+    top:40%;
+}
+
+.entry-button button{
+    background-color: #060606;
+    border:solid 1px #fff;
+    color:#fff !important;
+    font-size: 1.3rem;
+    padding: 40px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
