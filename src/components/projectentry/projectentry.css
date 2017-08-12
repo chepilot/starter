@@ -1,9 +1,12 @@
 .project-entry{
     background-color: #060606;
     color:#fff;
-    height:100%;
-    width:100%;
     font-size: 1.2rem;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right:0;
+    left:calc(35% + 78px)
 }
 
 .entry-title{

@@ -6,24 +6,34 @@ import ProjectEntry from '../projectentry/projectentry'
 
 
 class ProjectOverview extends React.Component{
+	componentDidMount() {
+		document.getElementById('page-wrap').style.position = "absolute";
+		document.getElementById('page-wrap').style.height = "100%";
+		document.getElementById('page-wrap').style.width = "100%";
+	}
 
 	render(){
 		return(
-			<Router>
-
 			<div className="projectOverview">
 				<div className="column">
-					<Link to='/projectentry'><img src={require('../../image/home.jpg')} className="imageCascade"/></Link>
-					<Link to='/projectentry'><img src={require('../../image/a.jpg')} className="imageCascade"/></Link>
-					<Link to='/projectentry'><img src={require('../../image/b.jpg')} className="imageCascade"/></Link>
-					<Link to='/projectentry'><img src={require('../../image/c.jpg')} className="imageCascade"/></Link>
+					{/*<Link to='/projectentry'>*/}
+						<img src={require('../../image/home.jpg')} className="imageCascade"/>
+					{/*</Link>*/}
+					{/*<Link to='/projectentry'>*/}
+						<img src={require('../../image/a.jpg')} className="imageCascade"/>
+					{/*</Link>*/}
+					{/*<Link to='/projectentry'>*/}
+						<img src={require('../../image/b.jpg')} className="imageCascade"/>
+					{/*</Link>*/}
+					{/*<Link to='/projectentry'>*/}
+						<img src={require('../../image/c.jpg')} className="imageCascade"/>
+					{/*</Link>*/}
 				</div>
 
 				<div className="entry-column">
-						<Route path="/projectentry" component={ProjectEntry}/>
+					<ProjectEntry/>
 				</div>
 			</div>
-			</Router>
 			);
 	}
 }

@@ -1,12 +1,8 @@
 import React from 'react';
 import './projectentry.css'
 import { Link} from 'react-router-dom'
-import { withRouter } from 'react-router';
 
 class ProjectEntry extends React.Component{
-	clickHandler() {
-		this.props.router.push('/projectview');
-	}
 
 	render(){
 		return (

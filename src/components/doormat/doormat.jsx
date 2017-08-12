@@ -4,7 +4,9 @@ import './doormat.css'
 class Doormat extends React.Component{
 	render(){
 		return(
-			<div className="doormat">
+			<div className="doormat_wrapper">
+				<div className="doormat">
+				</div>
 			</div>
 		);
 	}

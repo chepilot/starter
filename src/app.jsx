@@ -19,10 +19,10 @@ export default class App extends React.Component {
 				<div id="outer-container">
 					<Sidebar/>
 					<main id ="page-wrap" >
-						<Doormat/>
-						<Route exact path="/" component={Home}/>
-						<Route path="/projectoverview" component={ProjectOverview}/>
-						<Route path="/projectview" component={ProjectView}/>
+							<Doormat/>
+							<Route exact path="/" component={Home}/>
+							<Route path="/projectoverview" component={ProjectOverview}/>
+							<Route path="/projectview" component={ProjectView}/>
 					</main>
 	</div>
 			</Router>

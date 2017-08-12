@@ -1,8 +1,22 @@
 .doormat{
-    height: 100%;
     background-color: #212121;
     width:78px;
     left: 0;
-    position: relative;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.doormat_wrapper{
+    width: auto;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
     display: inline-block;
 }
+
+
