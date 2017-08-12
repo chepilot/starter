@@ -14,10 +14,18 @@ class ProjectOverview extends React.Component{
 		return(
 			<div className="projectOverview">
 				<div className="column">
+					<div className="img-a">
 						<img src={require('../../image/home.jpg')} className="imageCascade"/>
+					</div>
+					<div className="img-b">
 						<img src={require('../../image/a.jpg')} className="imageCascade"/>
+					</div>
+					<div className="img-c">
 						<img src={require('../../image/b.jpg')} className="imageCascade"/>
+					</div>
+					<div className="img-d">
 						<img src={require('../../image/c.jpg')} className="imageCascade"/>
+					</div>
 				</div>
 
 				<div className="entry-column">

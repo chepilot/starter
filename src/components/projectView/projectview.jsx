@@ -23,12 +23,10 @@ class ProjectView extends React.Component{
 		super(props);
 	}
 
-
-
 	componentDidMount() {
-		scrollSpy.update();
 		document.getElementById('page-wrap').style.position = "";
 		document.getElementById('page-wrap').style.height = "";
+		scrollSpy.update();
 	}
 
 	componentWillUnmount() {
