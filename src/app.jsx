@@ -6,9 +6,8 @@ import ProjectOverview from './components/projectOverview/projectoverview'
 import ProjectView from './components/projectview/projectview'
 import '../styles/index.scss';
 import {
-	BrowserRouter as Router,
+	HashRouter as Router,
 	Route,
-	Link
 } from 'react-router-dom'
 
 

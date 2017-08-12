@@ -1,6 +1,6 @@
 import React from 'react'
 import './sidebar.css'
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import {push as Menu } from 'react-burger-menu'
 
 

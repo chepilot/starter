@@ -1,6 +1,5 @@
 import React from 'react';
 import './projectoverview.css'
-import {	BrowserRouter as Router,Route,Link} from 'react-router-dom'
 import ProjectEntry from '../projectentry/projectentry'
 
 class ProjectOverview extends React.Component{
