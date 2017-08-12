@@ -1,7 +1,11 @@
 #page-wrap {
   overflow: hidden !important;
+  padding: 0 !important;
 }
 
-main{
 
+html::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent;
 }

@@ -12,12 +12,9 @@ class Home extends React.Component{
 	render(){
 		return(
 			<div className="home">
-				{/*<div>*/}
-
-				{/*</div>*/}
-				{/*<span className="projectName">*/}
-					{/*NEW YORK, NEW YORK*/}
-				{/*</span>*/}
+				<span className="projectName">
+					NEW YORK, NEW YORK
+				</span>
 			</div>
 		);
 	}

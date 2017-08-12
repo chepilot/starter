@@ -4,30 +4,72 @@
     display: inline-block;
 }
 
-.projectView::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
-}
 
 .project-menu{
     background-color: #393939;
     height: 100%;
-    width: 350px;
-    display: inline-block;
+    width: 18%;
     position: fixed;
     top: 0;
     left: 78px;
     bottom: 0;
+    z-index:999;
+}
+
+.project-menu ul{
+    padding-top: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.project-menu li {
+    padding: 0.3rem;
+    list-style: none;
+    color:#fff
+}
+
+.project-menu li a{
+    color:#ddd !important;
+}
+
+.project-menu li a:hover {
+    color:#fff !important;
 }
 
 .project-content{
-    width:calc(100% - 350px);
-    margin-left: 350px;
-    display: inline-block;
-    height: auto !important;
+    width:82%;
+    margin-left: calc(18% + 48px);
+    padding: 0 !important;
+    height: 100%;
+    position: absolute;
+    text-align: center;
 }
 
-.target {
-    height:1000px;
+.target{
+    height: 100% ;
+    color:#fff;
+    background-color: #060606;
+}
+
+
+.slider-image{
+    width: 100%;
+    height:100%;
+    display: -webkit-box;
+    object-fit: cover;
+}
+
+.slick-prev{
+    left: 25px !important;
+    z-index:999 !important;
+}
+
+.slick-next{
+    right: 25px !important;
+    z-index:999 !important;
+}
+
+.slick-dots{
+    bottom:0;
 }
 

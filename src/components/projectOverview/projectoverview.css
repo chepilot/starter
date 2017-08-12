@@ -28,6 +28,7 @@
     top:0;
     bottom: 0;
     width: calc(65% - 78px);
+    height: 100%;
     margin-left: calc(35% + 78px);
     display: inline-block;
 }
